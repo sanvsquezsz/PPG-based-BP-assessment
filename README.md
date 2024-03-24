@@ -6,3 +6,4 @@ The dataset is distributed in three formats:
 
 1. CSV (comma-separated-value) format
 2. Matlab (r) format
+3. .xlsx (excel-open-XML-spreadsheet) format
