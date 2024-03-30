@@ -1,1 +1,0 @@
-Information about data format
