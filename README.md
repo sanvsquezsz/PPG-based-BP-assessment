@@ -29,6 +29,12 @@ The JNC 7 classification introduces the term "prehypertensive" as the designatio
 
 | **Systolic BP** |   | **Diastolic BP** | **JNC 7** | **ACC/AHA 2017** |
 | --------------- | - | ---------------- | --------- | ---------------- |
+| <120 | and | <80 | Normal | Normal |
+| 120-129 | and | <80 | Prehypertension | Elevated |
+| 130-139 | or | 80-89 | Prehypertesion | Stage1/Hypertension|
+| 140-159 | or | 90-99 | stage 1/Hypertesion | Stage2/Hypertension |
+| ≥160 | or | ≥100 | stage 2/Hypertension | Stage 3/Hypertension |
+
 
 ## Data Files
 The dataset is distributed in three formats:
