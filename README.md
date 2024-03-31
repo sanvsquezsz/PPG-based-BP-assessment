@@ -52,8 +52,21 @@ The *PPG_subj_completa.mat* file contains the following subset of the dataset in
   - PPG: photoplethysmogram signal. Each signal is provided in a structure, where the *'signal'* field denotes the signal values in a row vector $(1:n)$, and *'fs'* is the sampling     frequency.
   - info: a structure of all variables related to participant information (e.g., ID, age, gender, sys_bp, dis_bp, HR, etc.). 
 ### JSON format
+Separate JSON files are provided for each of the records, 'PPG_subj_##.json' (where ## is the subject number), and contain the following structure:
 
-...
+    {
+      "signal": [...],             
+      "id": "string id",       
+      "age": int,                 
+      "gender": "M or F",          
+      "diagnosed": "y or n",  
+      "treatment": "y or n",  
+      "sys_BP": int,   
+      "dis_BP": int,  
+      "HR": int,   
+      "JNC": "N, E or H",          
+      "AHA": "N, E or H"           
+    }
 
 ## Contributors
 For more information about the dataset, please contact the autors at: erick.arguello00@usc.edu.co, santiago.vasquez01@usc.edu.co and luis.delgado01@usc.edu.co 
