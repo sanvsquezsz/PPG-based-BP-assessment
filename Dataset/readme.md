@@ -1,4 +1,4 @@
-**Tabla 1.** Relevant information about each individual.
+**Table 1.** Relevant information about each individual.
 
 | **Record#** | **Age**  | **Gender** | **Diagnosed** | **Treatment** | **Systolic BP** | **Diastolic BP** | **Heart Rate** | **JNC** | **AHA** |
 | ------- | :---: |:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
