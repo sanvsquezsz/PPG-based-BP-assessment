@@ -28,7 +28,7 @@ Blood pressure is related to the force exerted by the blood on the walls of the 
 The JNC 7 classification introduces the term "prehypertensive" as the designation to identify persons at high risk of developing hypertension (with systolic BP values between 120-139 mm Hg or 80-89 mm Hg of diastolic BP) [1]. Whereas, the 2017 AHA lowered the cutoff values for defining hypertension at 130 mm Hg systolic pressure or 80 mm Hg diastolic pressure [2]. The classification methods of each guide are summarized in the following table.
 
 | **Systolic BP** |   | **Diastolic BP** | **JNC 7** | **ACC/AHA 2017** |
-| --------------- | - | ---------------- | --------- | ---------------- |
+| :---------------: | :-: | :----------------: | :---------: | :----------------: |
 | <120 | and | <80 | Normal | Normal |
 | 120-129 | and | <80 | Prehypertension | Elevated |
 | 130-139 | or | 80-89 | Prehypertesion | Stage1/Hypertension|
