@@ -48,10 +48,9 @@ Separate CSV files are provided for each recording (where ## is the subject numb
 
 ### Matlab (r) format
 
-The files in ".mat" format are independent for each recording (where ## is the subject number), as follows:
-
-  - PPG_subj_##.mat: the physiological signal data organized in a row vector  $(1:n)$, where n represents the floating value of the PPG signal for each sample along a single row.
-
+The *PPG_subj_completa.mat* file contains the following subset of the dataset in a single Matlab (r) variable named *data*. The following are provided for each of the 56 recordings:
+  - PPG: photoplethysmogram signal. Each signal is provided in a structure, where the *'signal'* field denotes the signal values in a row vector $(1:n)$, and *'fs'* is the sampling     frequency.
+  - info: a structure of all variables related to participant information (e.g., ID, age, gender, sys_bp, dis_bp, HR, etc.). 
 ### JSON format
 
 ...
