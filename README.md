@@ -1,12 +1,35 @@
 # Ambulatory-PPG-recordings-Dataset
 This dataset contains PPG recordings from 56 ambulatory subjects, which is intended to support the development of approaches for blood pressure estimation by analyzing PPG signals.
+
+## When using this resource, please cite the original publication:
+...
+
 ## Data Collection
 The data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 56 recordings in the data set contained a 2-min (120 s) PPG signal. These were sampled at 100 Hz (fs = 100 Hz).
+
+## Information about subjects
+
+56 subjects (22 men and 34 women) were recruited to capture PPG signals and estimate their blood pressure (BP). The average age was 52.48 ± 7.16 years. Additionally, information was collected about whether they were diagnosed for any cardiovascular disease (e.g., hypertensive or prehypertensive). In the MSExcel file, "Datos_Registros_PPG.xlsx", the information regarding each subject is summarized as follows:
+  - Record #: name of the record associated with each subject, 'PPG_subj_##" (where ## is the subject number).
+  - Age: range between 44 - 65 years old.
+  - Gender: Male or Female.
+  - Diagnosed: 'Y' for diagnosed with any cardiovascular disease, and 'n' for undiagnosed.
+  - Treatment: Y', is under treatment, on the other hand, 'n', isn’t under treatment.
+  - Systolic BP: pressure over the arteries when the heart beats (measured in mm Hg)
+  - Diastolic BP: pressure between beats when the heart is filling with blood (measured in mm Hg)
+  - Heart Rate: number of heart contractions for a given time (measured in BPM).
+  - JNC: Classification by JNC 7 guideline (N = normotensive, E = prehypertensive and H = hypertensive)
+  - AHA: Classification by AHA 2017 guideline (N = normotensive, E = prehypertensive/elevated and H = hypertensive)
+
+## Background of blood pressure classification (JNC and AHA)
+
+...
+
 ## Data Files
 The dataset is distributed in three formats:
 1. CSV (comma-separated-value) format
 2. Matlab (r) format
-3. TXT (text file) format
+3. JSON (JavaScript Object Notation) format
 ### CSV Format
 Separate CSV files are provided for each recording (where ## is the subject number), as follows:
 
@@ -17,6 +40,11 @@ Separate CSV files are provided for each recording (where ## is the subject numb
 The files in ".mat" format are independent for each recording (where ## is the subject number), as follows:
 
   - PPG_subj_##.mat: the physiological signal data organized in a row vector  $(1:n)$, where n represents the floating value of the PPG signal for each sample along a single row.
+
+### JSON format
+
+...
+
 ## Contributors
 For more information about the dataset, please contact the autors at: erick.arguello00@usc.edu.co, santiago.vasquez01@usc.edu.co y luis.delgado01@usc.edu.co 
 ## Conflicts of interest
