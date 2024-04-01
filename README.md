@@ -45,6 +45,7 @@ The dataset is distributed in three formats:
 For CSV format files, two subfolders are provided within the dataset, 'PPG_csv' and 'PPG_csv_info', which contain: 
 
   - PPG_csv: only the physiological signal data organized in a vector of $(n:1)$ columns for each record, where n represents the floating value of the PPG signal for each sample along a single column. In this subfolder the files are named 'PPG_subj_##.csv' (where ## is the subject number).
+  - PPG_csv_info: It contains the associated information of each subject and the PPG signal in a vector row $(n:1)$, where it is highlighted that for each column there is the information related to the variables presented in the MSExcel, and from the tenth column onwards there is the signal for each subject. The name of each file is 'PPG_subj_wInfo_##.csv' (where ## is the subject number).
 
 ### Matlab (r) format
 
