@@ -42,9 +42,9 @@ The dataset is distributed in three formats:
 2. Matlab (r) format
 3. JSON (JavaScript Object Notation) format
 ### CSV Format
-Separate CSV files are provided for each recording (where ## is the subject number), as follows:
+For CSV format files, two subfolders are provided within the dataset, 'PPG_csv' and 'PPG_csv_info', which contain: 
 
-  - PPG_subj_##.csv: the physiological signal data organized in a column vector  $(n:1)$, where n represents the floating value of the PPG signal for each sample along a single column.
+  - PPG_csv: only the physiological signal data organized in a vector of $(n:1)$ columns for each record, where n represents the floating value of the PPG signal for each sample along a single column. In this subfolder the files are named 'PPG_subj_##.csv' (where ## is the subject number).
 
 ### Matlab (r) format
 
@@ -68,6 +68,19 @@ Separate JSON files are provided for each of the records, 'PPG_subj_##.json' (wh
       "AHA": "N, E or H"           
     }
 
+**Note:** For its reading in:
+  - **Python:**the following lines of code can be used:
+  ```Python
+  import json
+  with open(r"Folder_Name/PPG_subj_##.json", "r") as j:
+    mydata = json.load(j)
+  ```
+  - **Matlab:**you can use the following lines of code having in the same local folder the JSON files:
+  ```Matlab
+  json_file = fileread('PPG_subj_##.json');
+  ppg = jsondecode(json_file);
+  ```
+     
 ## Contributors
 For more information about the dataset, please contact the autors at: erick.arguello00@usc.edu.co, santiago.vasquez01@usc.edu.co and luis.delgado01@usc.edu.co 
 ## Conflicts of interest
