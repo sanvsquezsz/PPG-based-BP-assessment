@@ -44,8 +44,12 @@ The dataset is distributed in three formats:
 ### CSV Format
 For CSV format files, two subfolders are provided within the dataset, 'PPG_csv' and 'PPG_csv_info', which contain: 
 
-  - PPG_csv: only the physiological signal data organized in a vector of $(n:1)$ columns for each record, where n represents the floating value of the PPG signal for each sample along a single column. In this subfolder the files are named 'PPG_subj_##.csv' (where ## is the subject number).
-  - PPG_csv_info: It contains the associated information of each subject and the PPG signal in a vector row $(n:1)$, where it is highlighted that for each column there is the information related to the variables presented in the MSExcel, and from the tenth column onwards there is the signal for each subject. The name of each file is 'PPG_subj_wInfo_##.csv' (where ## is the subject number).
+  - PPG_csv: only the physiological signal data organized in a vector of columns for each record, $(n:1)$ where n represents the floating value of the PPG signal for each sample along a single column. In this subfolder the files are named 'PPG_subj_##.csv' (where ## is the subject number).
+  - PPG_csv_info: It contains **the associated information of each subject and the PPG signal joined together along a single row**, where the first 10 data are the information related to the variables presented in the MSExcel, and from the 11th data corresponds to the signal for each subject. The name of each file is 'PPG_subj_wInfo_##.csv' (where ## is the subject number) and the structure of how the CSV is organized is shown below:
+
+  ```
+  'Record #', 'Age', 'Gender', 'Diagnosed', 'Treatment', 'Systolic BP', 'Diastolic BP', 'Heart Rate', 'JNC', 'AHA', 'Signal' ... 
+  ```
 
 ### Matlab (r) format
 
@@ -70,13 +74,13 @@ Separate JSON files are provided for each of the records, 'PPG_subj_##.json' (wh
     }
 
 **Note:** For its reading in:
-  - **Python:**the following lines of code can be used:
+  - **Python:** the following lines of code can be used:
   ```Python
   import json
   with open(r"Folder_Name/PPG_subj_##.json", "r") as j:
     mydata = json.load(j)
   ```
-  - **Matlab:**you can use the following lines of code having in the same local folder the JSON files:
+  - **Matlab:** you can use the following lines of code having in the same local folder the JSON files:
   ```Matlab
   json_file = fileread('PPG_subj_##.json');
   ppg = jsondecode(json_file);
