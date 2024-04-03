@@ -31,7 +31,7 @@ The JNC 7 classification introduces the term "prehypertensive" as the designatio
 | :---------------: | :-: | :----------------: | :---------: | :----------------: |
 | <120 | and | <80 | Normal | Normal |
 | 120-129 | and | <80 | Prehypertension | Elevated |
-| 130-139 | or | 80-89 | Prehypertesion | Stage1/Hypertension|
+| 130-139 | or | 80-89 | Prehypertension | Stage1/Hypertension|
 | 140-159 | or | 90-99 | Stage 1/Hypertesion | Stage2/Hypertension |
 | ≥160 | or | ≥100 | Stage 2/Hypertension | Stage 3/Hypertension |
 
