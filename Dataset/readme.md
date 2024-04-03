@@ -31,7 +31,7 @@
 |PPG_subj_27| 56 | F | n | n | 135 | 97 | 69 | H | H |
 |PPG_subj_28| 45 | F | n | n | 120 | 78 | 70 | N | E |
 |PPG_subj_29| 50 | F | y | y | 135 | 83 | 76 | E | H |
-|PPG_subj_30| 45 | M | n | n | 111 | 78 | 72 | N |  |
+|PPG_subj_30| 45 | M | n | n | 111 | 78 | 72 | N | N |
 |PPG_subj_31| 46 | M | y | y | 129 | 82 | 72 | E | H |
 |PPG_subj_32| 50 | M | n | n | 129 | 79 | 68 | E | E |
 |PPG_subj_33| 64 | M | n | n | 125 | 75 | 78 | E | E |
