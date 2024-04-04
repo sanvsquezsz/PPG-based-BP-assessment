@@ -1,5 +1,5 @@
-# Ambulatory-PPG-recordings-Dataset
-This dataset contains PPG recordings from 56 ambulatory subjects, which is intended to support the development of approaches for blood pressure estimation by analyzing PPG signals.
+# PPG-based-BP-assessment-dataset
+This data set contains PPG recordings from 56 subjects who were not hospitalized during data collection. This data set is intended to support the development of approaches for blood pressure estimation by analyzing PPG signals.
 
 ## When using this resource, please cite the original publication:
 ...
