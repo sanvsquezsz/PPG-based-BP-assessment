@@ -2,7 +2,7 @@
 This data set contains PPG recordings from 56 subjects who were not hospitalized during data collection. This data set is intended to support the development of approaches for blood pressure estimation by analyzing PPG signals.
 
 ## When using this resource, please cite the original publication:
-S. Vasquez Salazar, L. D. Delgado Giraldo and E. J. Arguüello-Prada, «PPG-based BP assessment dataset,» April 1st 2024. [Online]. Available: https://github.com/sanvsquezsz/PPG-based-BP-assessment.
+S. Vasquez Salazar, L. D. Delgado Giraldo and E. J. Argüello-Prada, «PPG-based BP assessment dataset,» April 1st 2024. [Online]. Available: https://github.com/sanvsquezsz/PPG-based-BP-assessment.
 
 ## Data Collection
 The data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 56 recordings in the data set contained a 2-min (120 s) PPG signal. These were sampled at 100 Hz (fs = 100 Hz).
