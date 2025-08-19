@@ -4,7 +4,9 @@ This data set contains PPG recordings from 56 subjects who were not hospitalized
 ## When using this resource, please cite the original publication:
 S. Vasquez Salazar, L. D. Delgado Giraldo and E. J. Argüello-Prada, «PPG-based BP assessment dataset,» April 1st 2024. [Online]. Available: https://github.com/sanvsquezsz/PPG-based-BP-assessment.
 
-**Please also cite the associate study**, which is currently under review and can be accessed at https://www.researchsquare.com/article/rs-4693866/v1.
+**Please also cite the associate study**, which is currently published in the Physical and Engineering Sciences in Medicine journal and is available at: https://link.springer.com/article/10.1007/s13246-025-01593-3.
+
+**Cite this article:** Argüello-Prada, E.J., Castaño Mosquera, C.D. Exploring supervised machine learning models to estimate blood pressure using non-fiducial features of the photoplethysmogram (PPG) and its derivatives. Phys Eng Sci Med (2025). https://doi.org/10.1007/s13246-025-01593-3.
 
 ## Data Collection
 The data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Each of the 56 recordings in the data set contained a 2-min (120 s) PPG signal. These were sampled at 100 Hz (fs = 100 Hz).
